@@ -1,0 +1,38 @@
+import React from "react";
+import "./Content.css";
+const home = () => {
+  return (
+    <div className="container">
+      <a
+        href="https://burgerapp-3d813.firebaseapp.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="img/img1.png" alt="project" />
+      </a>
+      <a
+        href="https://burgerapp-3d813.firebaseapp.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="img/img1.png" alt="project" />
+      </a>
+      <a
+        href="https://burgerapp-3d813.firebaseapp.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="img/img1.png" alt="project" />
+      </a>
+      <a
+        href="https://burgerapp-3d813.firebaseapp.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="img/img1.png" alt="project" />
+      </a>
+    </div>
+  );
+};
+
+export default home;

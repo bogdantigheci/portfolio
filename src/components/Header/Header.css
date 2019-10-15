@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #add8e6;
+}
+
+.linkedin {
+  color: blue;
+}
+
+.yahoo {
+  color: blueviolet;
+}
+
+.navbar a {
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #6cf;
+  border-radius: 5px;
+}
