@@ -3,6 +3,8 @@ import "./Footer.css";
 
 export default () => {
   return (
-    <footer>Copyright &copy; {new Date().getFullYear()} Bogdan Tigheci</footer>
+    <div className="navbar fixed-bottom btminfo">
+      Copyright &copy; {new Date().getFullYear()} Bogdan Tigheci
+    </div>
   );
 };
