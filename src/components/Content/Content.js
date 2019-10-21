@@ -4,7 +4,7 @@ const home = () => {
   return (
     <div className="container">
       <a
-        href="https://burgerapp-3d813.firebaseapp.com/"
+        href="https://burgerapp-3d813.web.app/"
         target="_blank"
         rel="noopener noreferrer"
       >
