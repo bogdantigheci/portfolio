@@ -24,13 +24,6 @@ const home = () => {
       >
         <img src="img/img3.png" alt="project" />
       </a>
-      {/* <a
-        href="https://burgerapp-3d813.firebaseapp.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src="img/img1.png" alt="project" />
-      </a> */}
     </div>
   );
 };
