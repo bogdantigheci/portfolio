@@ -1,5 +1,5 @@
-import React from "react";
-import "./Content.css";
+import React from 'react';
+import './Content.css';
 const home = () => {
   return (
     <div className="container">
@@ -23,6 +23,13 @@ const home = () => {
         rel="noopener noreferrer"
       >
         <img src="img/img3.png" alt="project" />
+      </a>
+      <a
+        href="https://tictactoebt.netlify.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="img/img4.png" alt="project" />
       </a>
     </div>
   );
