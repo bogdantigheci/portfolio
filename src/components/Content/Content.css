@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 20px;
   width: 100%;
 }
 
@@ -10,14 +9,12 @@ img {
   flex: 0 45%;
   margin: 15px;
   height: 12rem;
-  text-align: center;
   cursor: pointer;
   border-radius: 5px;
   transition: 0.8s;
   box-sizing: border-box;
   border-radius: 5px;
   box-shadow: 3px 3px 3px blue;
-  max-width: 318px;
 }
 
 img:hover {
@@ -36,5 +33,9 @@ img:hover {
   img {
     height: 8rem;
     width: 80%;
+    margin-left: 1rem;
+  }
+  .about {
+    padding-right: 4rem;
   }
 }

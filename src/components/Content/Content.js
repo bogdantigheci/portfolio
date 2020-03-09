@@ -3,7 +3,7 @@ import './Content.css';
 const home = () => {
   return (
     <div>
-      <div className="about container-fluid">
+      <div className="about container-fluid justify-content-center">
         <h1>About Me</h1>
         <p>
           Looking for a job as <b>Frontend Developer</b>.

@@ -1,15 +1,15 @@
-import React from "react";
-import "./Header.css";
-import "@fortawesome/fontawesome-free/css/all.min.css";
-import "bootstrap-css-only/css/bootstrap.min.css";
-import { MDBIcon, MDBContainer, MDBBtn } from "mdbreact";
+import React from 'react';
+import './Header.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap-css-only/css/bootstrap.min.css';
+import { MDBIcon, MDBContainer, MDBBtn } from 'mdbreact';
 
 const navbar = () => {
   return (
     <div className="navbar wrap">
       <MDBContainer>
         <a
-          href="https://www.linkedin.com/in/bogdan-tigheci-46413a149/"
+          href="https://www.linkedin.com/in/bogdantigheci"
           target="_blank"
           rel="noopener noreferrer"
         >
