@@ -2,7 +2,7 @@ import React from 'react';
 import './Content.css';
 const home = () => {
   return (
-    <div className="container">
+    <div className="container cnt">
       <div className="about container-fluid justify-content-center">
         <h1>About Me</h1>
         <p>

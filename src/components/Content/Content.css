@@ -29,6 +29,9 @@ img:hover {
   margin: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.cnt {
+  margin-bottom: 50px;
+}
 
 @media (max-width: 600px) {
   img {
