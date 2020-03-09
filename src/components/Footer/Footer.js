@@ -1,10 +1,10 @@
-import React from "react";
-import "./Footer.css";
+import React from 'react';
+import './Footer.css';
 
 export default () => {
   return (
-    <div className="navbar fixed-bottom btminfo">
+    <footer className="footer btminfo">
       Copyright &copy; {new Date().getFullYear()} Bogdan Tigheci
-    </div>
+    </footer>
   );
 };

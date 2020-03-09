@@ -1,4 +1,5 @@
 .btminfo {
-  background-color: #add8e6;
-  justify-content: center;
+  background-image: linear-gradient(-25deg, #00f260, #0575e6);
+  text-align: center;
+  padding-bottom: 5px;
 }
