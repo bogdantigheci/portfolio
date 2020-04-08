@@ -33,7 +33,7 @@ const navbar = () => {
             <MDBIcon icon="envelope" className="pr-1 yahoo" /> Yahoo Mail
           </MDBBtn>
         </a>
-        <Link className='cert' to="/certificates">
+        <Link className="cert" to="/certificates">
           <MDBIcon icon="file-contract"> Certificates</MDBIcon>
         </Link>
       </MDBContainer>

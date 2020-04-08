@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import ImageGallery from 'react-image-gallery';
 import './Certificates.css';
 
@@ -26,6 +27,9 @@ class Certifications extends Component {
   render() {
     return (
       <div>
+        <Link to="/">
+          <button className="btn btn-dark">Back to homepage</button>
+        </Link>
         <h1 className="display-block mx-auto cert">Certificates</h1>
         <ImageGallery additionalClass={additionalClass} items={images} />
       </div>

@@ -23,3 +23,9 @@
 .cert {
   color: black;
 }
+
+@media (max-width: 435px) {
+  .navbar a {
+    width: 45%;
+  }
+}
