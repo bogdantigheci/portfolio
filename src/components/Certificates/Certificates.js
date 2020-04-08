@@ -20,6 +20,18 @@ const images = [
     original: 'img/java_fundamentals_collections.jpg',
     thumbnail: 'img/java_fundamentals_collections.jpg',
   },
+  {
+    original: 'img/react_fundamentals.jpg',
+    thumbnail: 'img/react_fundamentals.jpg',
+  },
+  {
+    original: 'img/react_js_a_complete_guide.jpg',
+    thumbnail: 'img/react_js_a_complete_guide.jpg',
+  },
+  {
+    original: 'img/responsive_web_design.jpg',
+    thumbnail: 'img/responsive_web_design.jpg',
+  },
 ];
 const additionalClass = 'img_gal_cert';
 
