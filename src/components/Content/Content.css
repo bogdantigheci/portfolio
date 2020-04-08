@@ -6,7 +6,7 @@
   height: 100%;
 }
 
-img {
+.port_img {
   flex: 0 45%;
   margin: 15px;
   height: 12rem;
@@ -18,7 +18,7 @@ img {
   box-shadow: 3px 3px 3px blue;
 }
 
-img:hover {
+.port_img:hover {
   transform: scale(1.2);
 }
 .about {
@@ -31,6 +31,11 @@ img:hover {
 }
 .cnt {
   margin-bottom: 50px;
+}
+
+.cert {
+  margin-top: 2rem;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
