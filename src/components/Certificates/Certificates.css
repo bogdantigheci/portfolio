@@ -1,5 +1,10 @@
 @import '~react-image-gallery/styles/css/image-gallery.css';
 
 .img_gal_cert {
+  height: 80%;
+  margin-bottom: 2rem;
+}
+
+.cert {
   margin-bottom: 2rem;
 }

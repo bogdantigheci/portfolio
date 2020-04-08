@@ -48,7 +48,6 @@ class Content extends Component {
             <img className="port_img" src="img/img4.png" alt="project" />
           </a>
         </div>
-        <h1 className="display-block mx-auto cert">Courses</h1>
       </div>
     );
   }

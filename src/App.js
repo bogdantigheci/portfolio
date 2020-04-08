@@ -2,14 +2,15 @@ import React from 'react';
 import Header from './components/Header/Header';
 import Content from './components/Content/Content';
 import Footer from './components/Footer/Footer';
-import Certifications from './components/Certifications/Certifications';
+import { Route } from 'react-router-dom';
+import Certificates from './components/Certificates/Certificates';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Content />
-      <Certifications />
+      <Route exact path="/" component={Content} />
+      <Route exact path="/certificates" component={Certificates} />
       <Footer />
     </div>
   );

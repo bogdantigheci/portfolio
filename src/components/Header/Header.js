@@ -3,6 +3,7 @@ import './Header.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import { MDBIcon, MDBContainer, MDBBtn } from 'mdbreact';
+import { Link } from 'react-router-dom';
 
 const navbar = () => {
   return (
@@ -32,6 +33,9 @@ const navbar = () => {
             <MDBIcon icon="envelope" className="pr-1 yahoo" /> Yahoo Mail
           </MDBBtn>
         </a>
+        <Link className='cert' to="/certificates">
+          <MDBIcon icon="file-contract"> Certificates</MDBIcon>
+        </Link>
       </MDBContainer>
     </div>
   );

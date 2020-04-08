@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ImageGallery from 'react-image-gallery';
-import './Certifications.css';
+import './Certificates.css';
 
 const images = [
   {
@@ -24,7 +24,12 @@ const additionalClass = ['img_gal_cert'];
 
 class Certifications extends Component {
   render() {
-    return <ImageGallery additionalClass={additionalClass} items={images} />;
+    return (
+      <div>
+        <h1 className="display-block mx-auto cert">Certificates</h1>
+        <ImageGallery additionalClass={additionalClass} items={images} />
+      </div>
+    );
   }
 }
 
