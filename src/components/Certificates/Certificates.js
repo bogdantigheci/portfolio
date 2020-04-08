@@ -20,7 +20,7 @@ const images = [
     thumbnail: 'img/java_fundamentals_collections.jpg',
   },
 ];
-const additionalClass = ['img_gal_cert'];
+const additionalClass = 'img_gal_cert';
 
 class Certifications extends Component {
   render() {
