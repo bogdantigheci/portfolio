@@ -32,6 +32,10 @@ const images = [
     original: 'img/responsive_web_design.jpg',
     thumbnail: 'img/responsive_web_design.jpg',
   },
+  {
+    original: 'img/introduction_to_testing_in_java.jpg',
+    thumbnail: 'img/introduction_to_testing_in_java.jpg',
+  },
 ];
 const additionalClass = 'img_gal_cert';
 
