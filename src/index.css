@@ -18,3 +18,7 @@ code {
 html {
   height: 100vh;
 }
+
+.about_section {
+  margin-bottom: 10px;
+}
