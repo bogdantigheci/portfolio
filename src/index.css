@@ -115,6 +115,9 @@ a:hover {
 
 .sect-pt4 {
   padding-top: 4rem;
+}
+
+.nav_section {
   margin-top: 4rem;
 }
 
@@ -682,10 +685,12 @@ a:hover {
 .sass_icon {
   color: rgb(233, 54, 233);
 }
-.less_icon {
+.less_icon,
+.cplus_icon {
   color: rgb(8, 8, 186);
 }
-.bs_icon {
+.bs_icon,
+.csharp_icon {
   color: rgb(98, 6, 169);
 }
 .github_icon {
@@ -699,6 +704,12 @@ a:hover {
 .linkedin_icon {
   color: #0062d3;
   font-size: 1.5rem;
+}
+
+.java_icon,
+.mysql_icon,
+.php_icon {
+  color: #0078ff;
 }
 
 .github_link {
@@ -802,6 +813,7 @@ a:hover {
 
 .work-content {
   padding: 2rem 3% 1rem 4%;
+  min-height: 10rem;
 }
 
 .work-content .w-more {

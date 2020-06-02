@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const navbar = () => {
   return (
-    <div className="navbar wrap">
+    <div className="navbar wrap nav_section">
       <nav
         class="navbar navbar-b navbar-reduce navbar-expand-md fixed-top"
         id="mainNav"
