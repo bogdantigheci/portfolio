@@ -127,7 +127,7 @@ a:hover {
 .title-s {
   font-weight: 600;
   color: #1e1e1e;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 /*--/ Title A /--*/
@@ -688,10 +688,33 @@ a:hover {
 .bs_icon {
   color: rgb(98, 6, 169);
 }
+.github_icon {
+  color: #4e4e4e;
+  font-size: 1.5rem;
+}
+.yahoo_icon {
+  color: rgb(152, 14, 152);
+  font-size: 1.5rem;
+}
+.linkedin_icon {
+  color: #0062d3;
+  font-size: 1.5rem;
+}
+
+.github_link {
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+
+.project_card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+}
 /*======================================
 //--//-->   SERVICES
 ======================================*/
-
 .service-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;

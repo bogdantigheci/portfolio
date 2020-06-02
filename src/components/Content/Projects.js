@@ -13,7 +13,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="project_card">
           <div class="col-md-4">
             <div class="work-box">
               <a
@@ -28,15 +28,25 @@ const Projects = () => {
                 <div class="work-content">
                   <div class="row">
                     <div class="col-sm-8">
-                      <h2 class="w-title">Lorem impsum dolor</h2>
+                      <h2 class="w-title">Burger order app </h2>
                       <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> /
-                        <span class="w-date">18 Sep. 2018</span>
+                        <span class="w-ctegory">
+                          App developed with ReactJS, Redux, NodeJS, Firebase
+                        </span>
                       </div>
                     </div>
                     <div class="col-sm-4">
                       <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
+                        <span class="ion-ios-plus-outline">
+                          <a
+                            className="github_link"
+                            href="https://github.com/bogdantigheci/burgerapp"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i class="fab fa-github"></i>{' '}
+                          </a>
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -58,15 +68,25 @@ const Projects = () => {
                 <div class="work-content">
                   <div class="row">
                     <div class="col-sm-8">
-                      <h2 class="w-title">Loreda Cuno Nere</h2>
+                      <h2 class="w-title">Todo List</h2>
                       <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> /
-                        <span class="w-date">18 Sep. 2018</span>
+                        <span class="w-ctegory">
+                          App developed with ReactJS
+                        </span>
                       </div>
                     </div>
                     <div class="col-sm-4">
                       <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
+                        <span class="ion-ios-plus-outline">
+                          <a
+                            className="github_link"
+                            href="https://github.com/bogdantigheci/todolistreact"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i class="fab fa-github"></i>{' '}
+                          </a>
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -88,15 +108,26 @@ const Projects = () => {
                 <div class="work-content">
                   <div class="row">
                     <div class="col-sm-8">
-                      <h2 class="w-title">Mavrito Lana Dere</h2>
+                      <h2 class="w-title">Phone store</h2>
                       <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> /
-                        <span class="w-date">18 Sep. 2018</span>
+                        <span class="w-ctegory">
+                          App developed with ReactJS (using context, bootstrap,
+                          styled-components and paypal)
+                        </span>{' '}
                       </div>
                     </div>
                     <div class="col-sm-4">
                       <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
+                        <span class="ion-ios-plus-outline">
+                          <a
+                            className="github_link"
+                            href="https://github.com/bogdantigheci/phonestore"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i class="fab fa-github"></i>{' '}
+                          </a>
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -113,75 +144,35 @@ const Projects = () => {
                 data-lightbox="gallery-mf"
               >
                 <div class="work-img">
-                  <img src="img/img4.png" alt="" class="img-fluid" />
+                  <img src="img/img4.png" alt="tictactoe" />
                 </div>
                 <div class="work-content">
                   <div class="row">
                     <div class="col-sm-8">
-                      <h2 class="w-title">Bindo Laro Cado</h2>
+                      <h2 class="w-title">Tic Tac Toe</h2>
                       <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> /
-                        <span class="w-date">18 Sep. 2018</span>
+                        <span class="w-ctegory">
+                          App developed with ReactJS
+                        </span>
                       </div>
                     </div>
                     <div class="col-sm-4">
                       <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
+                        <span class="ion-ios-plus-outline">
+                          <a
+                            className="github_link"
+                            href="https://github.com/bogdantigheci/tictactoe"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i class="fab fa-github"></i>{' '}
+                          </a>
+                        </span>
                       </div>
                     </div>
                   </div>
                 </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="img/work-5.jpg" data-lightbox="gallery-mf">
-                <div class="work-img">
-                  <img src="img/img2.png" alt="" class="img-fluid" />
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Studio Lena Mado</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> /
-                        <span class="w-date">18 Sep. 2018</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="img/work-6.jpg" data-lightbox="gallery-mf">
-                <div class="work-img">
-                  <img src="img/img3.png" alt="" class="img-fluid" />
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Studio Big Bang</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> /
-                        <span class="w-date">18 Sep. 2017</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
+              </a>{' '}
             </div>
           </div>
         </div>

@@ -48,7 +48,7 @@ const About = () => {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <i class="fab fa-linkedin"></i>
+                              <i class="fab fa-linkedin linkedin_icon"></i>
                             </a>
                           </span>
                           <span>
@@ -58,7 +58,7 @@ const About = () => {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <i class="fab fa-github"></i>{' '}
+                              <i class="fab fa-github github_icon"></i>{' '}
                             </a>
                           </span>
                           <span>
@@ -68,7 +68,7 @@ const About = () => {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <i class="fab fa-yahoo">Mail!</i>
+                              <i class="fab fa-yahoo yahoo_icon">Mail!</i>
                             </a>
                           </span>
                         </p>
