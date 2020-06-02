@@ -7,15 +7,15 @@ const navbar = () => {
   return (
     <div className="navbar wrap nav_section">
       <nav
-        class="navbar navbar-b navbar-reduce navbar-expand-md fixed-top"
+        className="navbar navbar-b navbar-reduce navbar-expand-md fixed-top"
         id="mainNav"
       >
-        <div class="container">
-          <Link class="navbar-brand js-scroll" href="#page-top">
+        <div className="container">
+          <Link to="#page-top" className="navbar-brand js-scroll">
             Bogdan Tigheci
           </Link>
           <button
-            class="navbar-toggler collapsed"
+            className="navbar-toggler collapsed"
             type="button"
             data-toggle="collapse"
             data-target="#navbarDefault"
@@ -24,27 +24,27 @@ const navbar = () => {
             aria-label="Toggle navigation"
           ></button>
           <div
-            class="navbar-collapse collapse justify-content-end"
+            className="navbar-collapse collapse justify-content-end"
             id="navbarDefault"
           >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <Link class="nav-link js-scroll active" href="#home">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <Link to="#home" className="nav-link js-scroll active">
                   Home
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link js-scroll" href="#about">
+              <li className="nav-item">
+                <Link to="#about" className="nav-link js-scroll">
                   About
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link js-scroll" href="#projects">
+              <li className="nav-item">
+                <Link to="#projects" className="nav-link js-scroll">
                   Projects
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link to="/certificates" class="nav-link js-scroll">
+              <li className="nav-item">
+                <Link to="certificates" className="nav-link js-scroll">
                   Certificates
                 </Link>
               </li>

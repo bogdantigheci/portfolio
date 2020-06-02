@@ -42,10 +42,10 @@ class Certifications extends Component {
   render() {
     return (
       <div>
-        <div class="title-box text-center">
-          <h3 class="title-a">Certificates</h3>
-          <p class="subtitle-a">Courses taken </p>
-          <div class="line-mf"></div>
+        <div className="title-box text-center">
+          <h3 className="title-a">Certificates</h3>
+          <p className="subtitle-a">Courses taken </p>
+          <div className="line-mf"></div>
         </div>
         <ImageGallery additionalClass={additionalClass} items={images} />
       </div>

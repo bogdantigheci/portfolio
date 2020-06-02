@@ -3,11 +3,11 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="copyright-box">
-              <p class="copyright">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12">
+            <div className="copyright-box">
+              <p className="copyright">
                 &copy; Copyright {new Date().getFullYear()}
                 <strong> Bogdan Tigheci </strong>. All Rights Reserved
               </p>

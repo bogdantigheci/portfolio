@@ -17,71 +17,71 @@ import cplusplusIcon from '@iconify/icons-simple-icons/cplusplus';
 
 const About = () => {
   return (
-    <section id="about" class="about-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-5">
-                      <div class="about-img">
+    <section id="about" className="about-mf sect-pt4 route">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12">
+            <div className="box-shadow-full">
+              <div className="row">
+                <div className="col-md-6">
+                  <div className="row">
+                    <div className="col-sm-6 col-md-5">
+                      <div className="about-img">
                         <img
                           src="img/profile_pic.jpg"
-                          class="img-fluid rounded b-shadow-a"
+                          className="img-fluid rounded b-shadow-a"
                           alt=""
                         />
                       </div>
                     </div>
-                    <div class="col-sm-6 col-md-7">
-                      <div class="about-info">
+                    <div className="col-sm-6 col-md-7">
+                      <div className="about-info">
                         <p>
-                          <span class="title-s">Name: </span>
-                          <span>Bogdan Tigheci</span>
+                          <span className="title-s">Name: </span>
+                          <span className="title-s">Bogdan Tigheci</span>
                         </p>
                         <p>
-                          <span class="title-s">
+                          <span className="title-s">
                             <a
-                              class="navbar-brand js-scroll"
+                              className="navbar-brand js-scroll"
                               href="https://www.linkedin.com/in/bogdantigheci/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <i class="fab fa-linkedin linkedin_icon"></i>
+                              <i className="fab fa-linkedin linkedin_icon"></i>
                             </a>
                           </span>
                           <span>
                             <a
-                              class="navbar-brand js-scroll"
+                              className="navbar-brand js-scroll"
                               href="https://github.com/bogdantigheci"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <i class="fab fa-github github_icon"></i>{' '}
+                              <i className="fab fa-github github_icon"></i>{' '}
                             </a>
                           </span>
                           <span>
                             <a
-                              class="navbar-brand js-scroll"
+                              className="navbar-brand js-scroll"
                               href="mailto:bogdantigheci@yahoo.com"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <i class="fab fa-yahoo yahoo_icon">Mail!</i>
+                              <i className="fab fa-yahoo yahoo_icon">Mail!</i>
                             </a>
                           </span>
                         </p>
 
                         <p>
-                          <span class="title-s">Phone: </span>
-                          <span>+40 721 892 729</span>
+                          <span className="title-s">Phone: </span>
+                          <span className="title-s">+40 721 892 729</span>
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div class="skill-mf">
-                    <p class="title-s">Skills</p>
+                  <div className="skill-mf">
+                    <p className="title-s">Skills</p>
                     <span>
                       <Icon className="mr-4 react_icon" icon={reactIcon} />
                       <Icon className="mr-4 redux_icon" icon={reduxIcon} />
@@ -104,24 +104,24 @@ const About = () => {
                     </span>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left">About me</h5>
+                <div className="col-md-6">
+                  <div className="about-me pt-4 pt-md-0">
+                    <div className="title-box-2">
+                      <h5 className="title-left">About me</h5>
                     </div>
-                    <p class="lead">
+                    <p className="lead">
                       Computer Science graduate, Bachelor’s and Master’s
                       degrees. Seeking a new job opportunity as a Frontend
                       Developer. Eager to learn and acquire on-the-job
                       experience and be part of a professional team.
                     </p>
-                    <p class="lead">
+                    <p className="lead">
                       I like attending online meetings from the JavaScript
                       community and watching online courses regarding
                       technologies I’m interested in. I also enjoy taking on
                       challenging projects and seeing them through.
                     </p>
-                    <p class="lead">
+                    <p className="lead">
                       I’ve developed my dissertation project using ReactJS,
                       Redux, JavaScript (ES6+), HTML, CSS, NodeJS, Express, REST
                       API, MongoDB, Git, Npm and Postman. I also have basic

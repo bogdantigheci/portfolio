@@ -5,7 +5,7 @@ import Certificates from './components/Certificates/Certificates';
 import About from './components/Content/About';
 import Projects from './components/Content/Projects';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Header />
@@ -15,6 +15,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

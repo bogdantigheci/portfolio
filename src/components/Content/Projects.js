@@ -2,49 +2,49 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <section id="projects" class="portfolio-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">Projects</h3>
-              <p class="subtitle-a">Select a project for a live preview</p>
-              <div class="line-mf"></div>
+    <section id="projects" className="portfolio-mf sect-pt4 route">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12">
+            <div className="title-box text-center">
+              <h3 className="title-a">Projects</h3>
+              <p className="subtitle-a">Select a project for a live preview</p>
+              <div className="line-mf"></div>
             </div>
           </div>
         </div>
-        <div class="project_card">
-          <div class="col-md-4">
-            <div class="work-box">
+        <div className="project_card">
+          <div className="col-md-4">
+            <div className="work-box">
               <a
                 href="https://burgerapp-3d813.web.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-lightbox="gallery-mf"
               >
-                <div class="work-img">
-                  <img src="img/img1.png" alt="" class="img-fluid" />
+                <div className="work-img">
+                  <img src="img/img1.png" alt="" className="img-fluid" />
                 </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Burger order app </h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-8">
+                      <h2 className="w-title">Burger order app </h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">
                           App developed with ReactJS, Redux, NodeJS, Firebase
                         </span>
                       </div>
                     </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline">
+                    <div className="col-sm-4">
+                      <div className="w-like">
+                        <span className="ion-ios-plus-outline">
                           <a
                             className="github_link"
                             href="https://github.com/bogdantigheci/burgerapp"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <i class="fab fa-github"></i>{' '}
+                            <i className="fab fa-github"></i>{' '}
                           </a>
                         </span>
                       </div>
@@ -54,37 +54,37 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
+          <div className="col-md-4">
+            <div className="work-box">
               <a
                 href="https://todoreactbt.netlify.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-lightbox="gallery-mf"
               >
-                <div class="work-img">
-                  <img src="img/img2.png" alt="" class="img-fluid" />
+                <div className="work-img">
+                  <img src="img/img2.png" alt="" className="img-fluid" />
                 </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Todo List</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-8">
+                      <h2 className="w-title">Todo List</h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">
                           App developed with ReactJS
                         </span>
                       </div>
                     </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline">
+                    <div className="col-sm-4">
+                      <div className="w-like">
+                        <span className="ion-ios-plus-outline">
                           <a
                             className="github_link"
                             href="https://github.com/bogdantigheci/todolistreact"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <i class="fab fa-github"></i>{' '}
+                            <i className="fab fa-github"></i>{' '}
                           </a>
                         </span>
                       </div>
@@ -94,38 +94,38 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
+          <div className="col-md-4">
+            <div className="work-box">
               <a
                 href="https://phonestorebt.netlify.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-lightbox="gallery-mf"
               >
-                <div class="work-img">
-                  <img src="img/img3.png" alt="" class="img-fluid" />
+                <div className="work-img">
+                  <img src="img/img3.png" alt="" className="img-fluid" />
                 </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Phone store</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-8">
+                      <h2 className="w-title">Phone store</h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">
                           App developed with ReactJS (using context, bootstrap,
                           styled-components and paypal)
                         </span>{' '}
                       </div>
                     </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline">
+                    <div className="col-sm-4">
+                      <div className="w-like">
+                        <span className="ion-ios-plus-outline">
                           <a
                             className="github_link"
                             href="https://github.com/bogdantigheci/phonestore"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <i class="fab fa-github"></i>{' '}
+                            <i className="fab fa-github"></i>{' '}
                           </a>
                         </span>
                       </div>
@@ -135,44 +135,44 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="work-box">
+          <div className="col-md-4">
+            <div className="work-box">
               <a
                 href="https://tictactoebt.netlify.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-lightbox="gallery-mf"
               >
-                <div class="work-img">
+                <div className="work-img">
                   <img src="img/img4.png" alt="tictactoe" />
                 </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Tic Tac Toe</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">
+                <div className="work-content">
+                  <div className="row">
+                    <div className="col-sm-8">
+                      <h2 className="w-title">Tic Tac Toe</h2>
+                      <div className="w-more">
+                        <span className="w-ctegory">
                           App developed with ReactJS
                         </span>
                       </div>
                     </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="ion-ios-plus-outline">
+                    <div className="col-sm-4">
+                      <div className="w-like">
+                        <span className="ion-ios-plus-outline">
                           <a
                             className="github_link"
                             href="https://github.com/bogdantigheci/tictactoe"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <i class="fab fa-github"></i>{' '}
+                            <i className="fab fa-github"></i>{' '}
                           </a>
                         </span>
                       </div>
                     </div>
                   </div>
                 </div>
-              </a>{' '}
+              </a>
             </div>
           </div>
         </div>
