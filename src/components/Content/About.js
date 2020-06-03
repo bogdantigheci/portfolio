@@ -48,7 +48,10 @@ const About = () => {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <i className="fab fa-linkedin linkedin_icon"></i>
+                              <i
+                                data-tip="LinkedIn"
+                                className="fab fa-linkedin linkedin_icon"
+                              ></i>
                             </a>
                           </span>
                           <span>
@@ -58,7 +61,10 @@ const About = () => {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <i className="fab fa-github github_icon"></i>{' '}
+                              <i
+                                data-tip="GitHub"
+                                className="fab fa-github github_icon"
+                              ></i>{' '}
                             </a>
                           </span>
                           <span>
@@ -68,7 +74,12 @@ const About = () => {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              <i className="fab fa-yahoo yahoo_icon">Mail!</i>
+                              <i
+                                data-tip="Yahoo!Mail"
+                                className="fab fa-yahoo yahoo_icon"
+                              >
+                                Mail!
+                              </i>
                             </a>
                           </span>
                         </p>
@@ -83,24 +94,92 @@ const About = () => {
                   <div className="skill-mf">
                     <p className="title-s">Skills</p>
                     <span>
-                      <Icon className="mr-4 react_icon" icon={reactIcon} />
-                      <Icon className="mr-4 redux_icon" icon={reduxIcon} />
-                      <Icon className="mr-4 js_icon" icon={jsIcon} />
-                      <Icon className="mr-4 css3_icon" icon={css3Icon} />
-                      <Icon className="mr-4 nodejs_icon" icon={nodeJsIcon} />
-                      <Icon className="mr-4 mongodb_icon" icon={mongoDbIcon} />
-                      <i className="fab fa-git mr-4 git_icon"></i>
-                      <i className="fab fa-npm mr-4 npm_icon"></i>
-                      <Icon className="mr-4 postman_icon" icon={postmanIcon} />
-                      <Icon className="mr-4 sass_icon" icon={sassIcon} />
-                      <i className="fab fa-less mr-4 less_icon"></i>
-                      <Icon className="mr-4 bs_icon" icon={bootstrapIcon} />
-                      <Icon className="mr-4 java_icon" icon={javaIcon} />
-                      <i className="fas fa-database mr-4 db_icon"></i>
-                      <Icon className="mr-4 mysql_icon" icon={mySqlIcon} />
-                      <Icon className="mr-4 php_icon" icon={phpIcon} />
-                      <Icon className="mr-4 csharp_icon" icon={cSharpIcon} />
-                      <Icon className="mr-4 cplus_icon" icon={cplusplusIcon} />
+                      <Icon
+                        data-tip="ReactJS"
+                        className="mr-4 react_icon"
+                        icon={reactIcon}
+                      />
+                      <Icon
+                        data-tip="Redux"
+                        className="mr-4 redux_icon"
+                        icon={reduxIcon}
+                      />
+                      <Icon
+                        data-tip="JavaScript"
+                        className="mr-4 js_icon"
+                        icon={jsIcon}
+                      />
+                      <Icon
+                        data-tip="CSS3"
+                        className="mr-4 css3_icon"
+                        icon={css3Icon}
+                      />
+                      <Icon
+                        data-tip="NodeJS"
+                        className="mr-4 nodejs_icon"
+                        icon={nodeJsIcon}
+                      />
+                      <Icon
+                        data-tip="MongoDB"
+                        className="mr-4 mongodb_icon"
+                        icon={mongoDbIcon}
+                      />
+                      <i
+                        data-tip="Git"
+                        className="fab fa-git mr-4 git_icon"
+                      ></i>
+                      <i
+                        data-tip="NPM"
+                        className="fab fa-npm mr-4 npm_icon"
+                      ></i>
+                      <Icon
+                        data-tip="Postman API"
+                        className="mr-4 postman_icon"
+                        icon={postmanIcon}
+                      />
+                      <Icon
+                        data-tip="Sass"
+                        className="mr-4 sass_icon"
+                        icon={sassIcon}
+                      />
+                      <i
+                        data-tip="less"
+                        className="fab fa-less mr-4 less_icon"
+                      ></i>
+                      <Icon
+                        data-tip="Bootstrap"
+                        className="mr-4 bs_icon"
+                        icon={bootstrapIcon}
+                      />
+                      <Icon
+                        data-tip="Java"
+                        className="mr-4 java_icon"
+                        icon={javaIcon}
+                      />
+                      <i
+                        data-tip="SQL"
+                        className="fas fa-database mr-4 db_icon"
+                      ></i>
+                      <Icon
+                        data-tip="MySql"
+                        className="mr-4 mysql_icon"
+                        icon={mySqlIcon}
+                      />
+                      <Icon
+                        data-tip="PHP"
+                        className="mr-4 php_icon"
+                        icon={phpIcon}
+                      />
+                      <Icon
+                        data-tip="C#"
+                        className="mr-4 csharp_icon"
+                        icon={cSharpIcon}
+                      />
+                      <Icon
+                        data-tip="C++"
+                        className="mr-4 cplus_icon"
+                        icon={cplusplusIcon}
+                      />
                     </span>
                   </div>
                 </div>
