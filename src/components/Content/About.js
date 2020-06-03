@@ -83,11 +83,16 @@ const About = () => {
                             </a>
                           </span>
                         </p>
-
                         <p>
                           <span className="title-s">Phone: </span>
                           <span className="title-s">+40 721 892 729</span>
                         </p>
+                        {/* <p>
+                          <span className="title-s">Email: </span>
+                          <span className="title-s email-s">
+                            bogdantigheci@yahoo.com
+                          </span>
+                        </p> */}
                       </div>
                     </div>
                   </div>

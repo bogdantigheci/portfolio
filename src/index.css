@@ -48,6 +48,7 @@ a:hover {
 
 .project_img {
   width: 100%;
+  padding: 0.5rem;
 }
 
 .box-shadow-a,
@@ -111,8 +112,6 @@ a:hover {
   vertical-align: middle;
 }
 
-/*--/ Sections /--*/
-
 .sect-4 {
   padding: 4rem 0;
 }
@@ -129,15 +128,11 @@ a:hover {
   margin-top: 4rem;
 }
 
-/*--/ Title s /--*/
-
 .title-s {
   font-weight: 600;
   color: #1e1e1e;
   font-size: 1.5rem;
 }
-
-/*--/ Title A /--*/
 
 .title-box {
   margin-bottom: 4rem;
@@ -160,8 +155,6 @@ a:hover {
   margin: 0 auto;
 }
 
-/*--/ Title Left /--*/
-
 .title-box-2 {
   margin-bottom: 3rem;
 }
@@ -180,8 +173,6 @@ a:hover {
   bottom: -12px;
 }
 
-/*------/ Box /------*/
-
 .box-pl2 {
   padding-left: 2rem;
 }
@@ -194,8 +185,6 @@ a:hover {
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
-
-/*------/ Socials /------*/
 
 .socials {
   padding: 1.5rem 0;
@@ -223,8 +212,6 @@ a:hover {
   transition: all 500ms ease;
 }
 
-/*------/ Ul resect /------*/
-
 .ul-resect,
 .socials ul,
 .list-ico,
@@ -244,8 +231,6 @@ a:hover {
   margin-right: 10px;
 }
 
-/*------/ Ico Circle /------*/
-
 .ico-circle {
   height: 100px;
   width: 100px;
@@ -257,8 +242,6 @@ a:hover {
   box-shadow: 0 0 0 10px #0078ff;
   display: block;
 }
-
-/*------/ Owl Carousel /------*/
 
 .owl-theme .owl-dots {
   text-align: center;
@@ -289,8 +272,6 @@ a:hover {
   width: 25px;
 }
 
-/*--/ Scrolltop s /--*/
-
 .scrolltop-mf {
   position: relative;
   display: none;
@@ -313,81 +294,6 @@ a:hover {
   bottom: 50px;
   cursor: pointer;
   border-radius: 50%;
-}
-
-/* Back to top button */
-
-.back-to-top {
-  position: fixed;
-  display: none;
-  background: #0078ff;
-  color: #fff;
-  width: 44px;
-  height: 44px;
-  text-align: center;
-  line-height: 1;
-  font-size: 16px;
-  border-radius: 50%;
-  right: 15px;
-  bottom: 15px;
-  transition: background 0.5s;
-  z-index: 11;
-}
-
-.back-to-top i {
-  padding-top: 12px;
-  color: #fff;
-}
-
-/* Prelaoder */
-
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #fff;
-}
-
-#preloader:before {
-  content: '';
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
-}
-
-@-webkit-keyframes animate-preloader {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-preloader {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
 }
 
 /*======================================
@@ -703,15 +609,19 @@ a {
 }
 .github_icon {
   color: #4e4e4e;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 .yahoo_icon {
   color: rgb(152, 14, 152);
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 .linkedin_icon {
   color: #0062d3;
-  font-size: 2.5rem;
+  font-size: 2rem;
+}
+
+.email-s {
+  overflow-wrap: break-word;
 }
 
 .java_icon,
