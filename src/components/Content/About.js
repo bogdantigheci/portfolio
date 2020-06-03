@@ -37,7 +37,6 @@ const About = () => {
                     <div className="col-sm-6 col-md-7">
                       <div className="about-info">
                         <p>
-                          <span className="title-s">Name: </span>
                           <span className="title-s">Bogdan Tigheci</span>
                         </p>
                         <p>
@@ -83,17 +82,16 @@ const About = () => {
                             </a>
                           </span>
                         </p>
-                        <p>
-                          <span className="title-s">Phone: </span>
-                          <span className="title-s">+40 721 892 729</span>
-                        </p>
-                        {/* <p>
-                          <span className="title-s">Email: </span>
-                          <span className="title-s email-s">
-                            bogdantigheci@yahoo.com
-                          </span>
-                        </p> */}
                       </div>
+                    </div>
+                    <div className='contact_info'>
+                      <p className="title-s contact-s">Contact me</p>
+                      <p className="title-contact-details_phone">
+                        Phone: +40 721 892 729
+                      </p>
+                      <p className="title-contact-details">
+                        Email: bogdantigheci@yahoo.com
+                      </p>
                     </div>
                   </div>
                   <div className="skill-mf">

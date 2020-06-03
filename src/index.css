@@ -630,6 +630,21 @@ a {
   color: #0078ff;
 }
 
+.title-contact {
+  font-size: 2rem;
+}
+
+.title-contact-details {
+  font-size: 20px;
+}
+.title-contact-details_phone {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.contact_info {
+  padding-left: 15px;
+}
+
 .github_link {
   margin-left: 2rem;
   font-size: 2rem;
