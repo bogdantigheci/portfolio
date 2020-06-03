@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="copyright-box">
               <p className="copyright">
                 &copy; Copyright {new Date().getFullYear()}
-                <strong> Bogdan Tigheci </strong>. All Rights Reserved
+                <strong> Bogdan Tigheci. </strong> All Rights Reserved
               </p>
             </div>
           </div>

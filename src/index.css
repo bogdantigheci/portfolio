@@ -43,7 +43,11 @@ a:hover {
 .paralax-mf,
 .service-box,
 .work-box {
-  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 13px 8px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project_img {
+  width: 100%;
 }
 
 .box-shadow-a,
@@ -390,6 +394,10 @@ a:hover {
 //--//-->   NAVBAR
 ======================================*/
 
+a {
+  cursor: pointer;
+}
+
 .navbar-b {
   transition: all 0.5s ease-in-out;
   background-color: transparent;
@@ -695,15 +703,15 @@ a:hover {
 }
 .github_icon {
   color: #4e4e4e;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 .yahoo_icon {
   color: rgb(152, 14, 152);
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 .linkedin_icon {
   color: #0062d3;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 .java_icon,

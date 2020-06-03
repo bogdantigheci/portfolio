@@ -23,7 +23,11 @@ const Projects = () => {
                 data-lightbox="gallery-mf"
               >
                 <div className="work-img">
-                  <img src="img/img1.png" alt="" className="img-fluid" />
+                  <img
+                    src="img/img1.png"
+                    alt="burger"
+                    className="img-fluid project_img"
+                  />
                 </div>
               </a>
               <div className="work-content">
@@ -63,7 +67,11 @@ const Projects = () => {
                 data-lightbox="gallery-mf"
               >
                 <div className="work-img">
-                  <img src="img/img2.png" alt="" className="img-fluid" />
+                  <img
+                    src="img/img2.png"
+                    alt="todo"
+                    className="img-fluid project_img"
+                  />
                 </div>
               </a>
               <div className="work-content">
@@ -103,7 +111,11 @@ const Projects = () => {
                 data-lightbox="gallery-mf"
               >
                 <div className="work-img">
-                  <img src="img/img3.png" alt="" className="img-fluid" />
+                  <img
+                    src="img/img3.png"
+                    alt="phonestore"
+                    className="img-fluid project_img"
+                  />
                 </div>
               </a>
               <div className="work-content">
@@ -144,7 +156,11 @@ const Projects = () => {
                 data-lightbox="gallery-mf"
               >
                 <div className="work-img">
-                  <img src="img/img4.png" alt="tictactoe" />
+                  <img
+                    src="img/img4.png"
+                    alt="tictactoe"
+                    className="img-fluid project_img"
+                  />
                 </div>
               </a>
               <div className="work-content">
