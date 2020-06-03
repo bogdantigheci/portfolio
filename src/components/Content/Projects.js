@@ -25,33 +25,33 @@ const Projects = () => {
                 <div className="work-img">
                   <img src="img/img1.png" alt="" className="img-fluid" />
                 </div>
-                <div className="work-content">
-                  <div className="row">
-                    <div className="col-sm-8">
-                      <h2 className="w-title">Burger order app </h2>
-                      <div className="w-more">
-                        <span className="w-ctegory">
-                          App developed with ReactJS, Redux, NodeJS, Firebase
-                        </span>
-                      </div>
+              </a>
+              <div className="work-content">
+                <div className="row">
+                  <div className="col-sm-8">
+                    <h2 className="w-title">Burger order app </h2>
+                    <div className="w-more">
+                      <span className="w-ctegory">
+                        App developed with ReactJS, Redux, NodeJS, Firebase
+                      </span>
                     </div>
-                    <div className="col-sm-4">
-                      <div className="w-like">
-                        <span className="ion-ios-plus-outline">
-                          <a
-                            className="github_link"
-                            href="https://github.com/bogdantigheci/burgerapp"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <i className="fab fa-github"></i>{' '}
-                          </a>
-                        </span>
-                      </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <span className="ion-ios-plus-outline">
+                        <a
+                          className="github_link"
+                          href="https://github.com/bogdantigheci/burgerapp"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i className="fab fa-github"></i>
+                        </a>
+                      </span>
                     </div>
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
           <div className="col-md-4">
@@ -65,33 +65,33 @@ const Projects = () => {
                 <div className="work-img">
                   <img src="img/img2.png" alt="" className="img-fluid" />
                 </div>
-                <div className="work-content">
-                  <div className="row">
-                    <div className="col-sm-8">
-                      <h2 className="w-title">Todo List</h2>
-                      <div className="w-more">
-                        <span className="w-ctegory">
-                          App developed with ReactJS
-                        </span>
-                      </div>
+              </a>
+              <div className="work-content">
+                <div className="row">
+                  <div className="col-sm-8">
+                    <h2 className="w-title">Todo List</h2>
+                    <div className="w-more">
+                      <span className="w-ctegory">
+                        App developed with ReactJS
+                      </span>
                     </div>
-                    <div className="col-sm-4">
-                      <div className="w-like">
-                        <span className="ion-ios-plus-outline">
-                          <a
-                            className="github_link"
-                            href="https://github.com/bogdantigheci/todolistreact"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <i className="fab fa-github"></i>{' '}
-                          </a>
-                        </span>
-                      </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <span className="ion-ios-plus-outline">
+                        <a
+                          className="github_link"
+                          href="https://github.com/bogdantigheci/todolistreact"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i className="fab fa-github"></i>{' '}
+                        </a>
+                      </span>
                     </div>
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
           <div className="col-md-4">
@@ -105,34 +105,34 @@ const Projects = () => {
                 <div className="work-img">
                   <img src="img/img3.png" alt="" className="img-fluid" />
                 </div>
-                <div className="work-content">
-                  <div className="row">
-                    <div className="col-sm-8">
-                      <h2 className="w-title">Phone store</h2>
-                      <div className="w-more">
-                        <span className="w-ctegory">
-                          App developed with ReactJS (using context, bootstrap,
-                          styled-components and paypal)
-                        </span>{' '}
-                      </div>
+              </a>
+              <div className="work-content">
+                <div className="row">
+                  <div className="col-sm-8">
+                    <h2 className="w-title">Phone store</h2>
+                    <div className="w-more">
+                      <span className="w-ctegory">
+                        App developed with ReactJS (using context, bootstrap,
+                        styled-components and paypal)
+                      </span>{' '}
                     </div>
-                    <div className="col-sm-4">
-                      <div className="w-like">
-                        <span className="ion-ios-plus-outline">
-                          <a
-                            className="github_link"
-                            href="https://github.com/bogdantigheci/phonestore"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <i className="fab fa-github"></i>{' '}
-                          </a>
-                        </span>
-                      </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <span className="ion-ios-plus-outline">
+                        <a
+                          className="github_link"
+                          href="https://github.com/bogdantigheci/phonestore"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i className="fab fa-github"></i>{' '}
+                        </a>
+                      </span>
                     </div>
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
           <div className="col-md-4">
@@ -146,33 +146,33 @@ const Projects = () => {
                 <div className="work-img">
                   <img src="img/img4.png" alt="tictactoe" />
                 </div>
-                <div className="work-content">
-                  <div className="row">
-                    <div className="col-sm-8">
-                      <h2 className="w-title">Tic Tac Toe</h2>
-                      <div className="w-more">
-                        <span className="w-ctegory">
-                          App developed with ReactJS
-                        </span>
-                      </div>
+              </a>
+              <div className="work-content">
+                <div className="row">
+                  <div className="col-sm-8">
+                    <h2 className="w-title">Tic Tac Toe</h2>
+                    <div className="w-more">
+                      <span className="w-ctegory">
+                        App developed with ReactJS
+                      </span>
                     </div>
-                    <div className="col-sm-4">
-                      <div className="w-like">
-                        <span className="ion-ios-plus-outline">
-                          <a
-                            className="github_link"
-                            href="https://github.com/bogdantigheci/tictactoe"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <i className="fab fa-github"></i>{' '}
-                          </a>
-                        </span>
-                      </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <span className="ion-ios-plus-outline">
+                        <a
+                          className="github_link"
+                          href="https://github.com/bogdantigheci/tictactoe"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i className="fab fa-github"></i>{' '}
+                        </a>
+                      </span>
                     </div>
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
         </div>

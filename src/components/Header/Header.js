@@ -1,9 +1,11 @@
 import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
-import { Link } from 'react-router-dom';
-
+import { Link, animateScroll as scroll } from 'react-scroll';
 const navbar = () => {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
   return (
     <div className="navbar wrap nav_section">
       <nav
@@ -11,7 +13,11 @@ const navbar = () => {
         id="mainNav"
       >
         <div className="container">
-          <Link to="#page-top" className="navbar-brand js-scroll">
+          <Link
+            onClick={scrollToTop}
+            to="top"
+            className="navbar-brand js-scroll"
+          >
             Bogdan Tigheci
           </Link>
           <button
@@ -29,22 +35,17 @@ const navbar = () => {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link to="#home" className="nav-link js-scroll active">
-                  Home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to="#about" className="nav-link js-scroll">
+                <Link to="about" smooth className="nav-link js-scroll">
                   About
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="#projects" className="nav-link js-scroll">
+                <Link to="projects" smooth className="nav-link js-scroll">
                   Projects
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="certificates" className="nav-link js-scroll">
+                <Link to="certificates" smooth className="nav-link js-scroll">
                   Certificates
                 </Link>
               </li>

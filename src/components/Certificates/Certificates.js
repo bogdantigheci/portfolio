@@ -41,14 +41,14 @@ const additionalClass = 'img_gal_cert';
 class Certifications extends Component {
   render() {
     return (
-      <div>
+      <section id="certificates">
         <div className="title-box text-center">
           <h3 className="title-a">Certificates</h3>
           <p className="subtitle-a">Courses taken </p>
           <div className="line-mf"></div>
         </div>
         <ImageGallery additionalClass={additionalClass} items={images} />
-      </div>
+      </section>
     );
   }
 }

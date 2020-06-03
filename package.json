@@ -9,7 +9,8 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-image-gallery": "^1.0.7",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+    "react-scroll": "^1.7.16"
   },
   "scripts": {
     "start": "react-scripts start",
