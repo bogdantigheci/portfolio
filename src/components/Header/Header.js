@@ -2,37 +2,34 @@ import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import { Link, animateScroll as scroll } from 'react-scroll';
-const navbar = () => {
+
+import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
+
+const toolbar = (props) => {
   const scrollToTop = () => {
     scroll.scrollToTop();
   };
   return (
-    <div className="navbar wrap nav_section">
+    <header className="navbar wrap nav_section">
       <nav
         className="navbar navbar-b navbar-reduce navbar-expand-md fixed-top"
         id="mainNav"
       >
         <div className="container">
-          <Link
-            onClick={scrollToTop}
-            to="top"
-            className="navbar-brand js-scroll"
-          >
-            Bogdan Tigheci
-          </Link>
-          <button
-            className="navbar-toggler collapsed"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarDefault"
-            aria-controls="navbarDefault"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          ></button>
-          <div
-            className="navbar-collapse collapse justify-content-end"
-            id="navbarDefault"
-          >
+          <div className="toolbar__toggle-button">
+            <DrawerToggleButton click={props.drawerClickHandler} />
+          </div>
+          <div className="toolbar__logo">
+            <Link
+              onClick={scrollToTop}
+              to="top"
+              className="navbar-brand js-scroll"
+            >
+              Bogdan Tigheci
+            </Link>
+          </div>
+          <div className="spacer" />
+          <div className="toolbar_navigation-items">
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link to="about" smooth className="nav-link js-scroll">
@@ -53,8 +50,8 @@ const navbar = () => {
           </div>
         </div>
       </nav>
-    </div>
+    </header>
   );
 };
 
-export default navbar;
+export default toolbar;

@@ -5,12 +5,29 @@ import Certificates from './components/Certificates/Certificates';
 import About from './components/Content/About';
 import Projects from './components/Content/Projects';
 import ReactTooltip from 'react-tooltip';
+import SideDrawer from './components/SideDrawer/SideDrawer';
+import Backdrop from './components/Backdrop/Backdrop';
 
 const App = () => {
+  const [sideDrawerOpen, setSideDrawerOpen] = React.useState(false);
+
+  const drawerToggleClickHandler = () => {
+    setSideDrawerOpen(!sideDrawerOpen);
+  };
+
+  const backdropClickHandler = () => {
+    setSideDrawerOpen(false);
+  };
+  let backdrop;
+  if (sideDrawerOpen) {
+    backdrop = <Backdrop click={backdropClickHandler} />;
+  }
   return (
     <div className="App">
       <ReactTooltip />
-      <Header />
+      <Header drawerClickHandler={drawerToggleClickHandler} />
+      <SideDrawer show={sideDrawerOpen} />
+      {backdrop}
       <About />
       <Projects />
       <Certificates />
