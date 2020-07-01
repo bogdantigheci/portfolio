@@ -5,8 +5,8 @@ const Project = () => {
   return (
     <React.Fragment>
       {projects.map((project, i) => (
-        <div className="col-md-4">
-          <div className="work-box" key={i}>
+        <div className="col-md-4" key={i}>
+          <div className="work-box">
             <a
               href={project.projectLink}
               target="_blank"
