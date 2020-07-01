@@ -49,6 +49,7 @@ a:hover {
 .project_img {
   width: 100%;
   padding: 0.5rem;
+  height: 10rem !important;
 }
 
 .box-shadow-a,
