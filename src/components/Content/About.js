@@ -84,7 +84,7 @@ const About = () => {
                         </p>
                       </div>
                     </div>
-                    <div className='contact_info'>
+                    <div className="contact_info">
                       <p className="title-s contact-s">Contact me</p>
                       <p className="title-contact-details_phone">
                         Phone: +40 721 892 729
@@ -204,11 +204,18 @@ const About = () => {
                       challenging projects and seeing them through.
                     </p>
                     <p className="lead">
-                      I’ve developed my dissertation project using ReactJS,
-                      Redux, JavaScript (ES6+), HTML, CSS, NodeJS, Express, REST
-                      API, MongoDB, Git, Npm and Postman. I also have basic
-                      knowledge of CSS Preprocessors (SASS, LESS), Bootstrap,
-                      Java, Sql, MySql, PHP and C++.
+                      I’ve developed my{' '}
+                      <a
+                        href="https://racingpigeons.herokuapp.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        dissertation
+                      </a>{' '}
+                      project using ReactJS, Redux, JavaScript (ES6+), HTML,
+                      CSS, NodeJS, Express, REST API, MongoDB, Git, Npm and
+                      Postman. I also have basic knowledge of CSS Preprocessors
+                      (SASS, LESS), Bootstrap, Java, Sql, MySql, PHP and C++.
                     </p>
                   </div>
                 </div>
