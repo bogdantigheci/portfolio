@@ -15,6 +15,13 @@ const projects = [
     img: 'img/titusivanart.png',
   },
   {
+    title: 'Racing Pigeons Chat - Owner',
+    techStack: 'App developed with ReactJS, Redux, firebase and semantic-ui',
+    projectLink: 'https://racingpigeonschat.web.app/',
+    githubLink: 'https://github.com/bogdantigheci/racingpigeonschat',
+    img: 'img/racingpigeonschat.png',
+  },
+  {
     title: 'Burger order app',
     techStack: 'App developed with ReactJS, Redux, NodeJS, Firebase',
     projectLink: 'https://burgerapp-3d813.web.app/',
