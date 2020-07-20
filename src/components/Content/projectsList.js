@@ -46,7 +46,7 @@ const projects = [
   },
   {
     title: 'Fresh news',
-    techStack: 'App developed with ReactJS (hooks)',
+    techStack: 'App developed with ReactJS (React Hooks)',
     projectLink: 'https://freshnews.netlify.app/',
     githubLink: 'https://github.com/bogdantigheci/newsfinder',
     img: 'img/freshnews.png',
