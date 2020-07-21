@@ -30,8 +30,16 @@ const projects = [
   },
   {
     title: 'To do',
-    techStack: 'App developed with ReactJS',
+    techStack:
+      'App developed with ReactJS (React Hooks including useContext and useReducer)',
     projectLink: 'https://todoreactbt.netlify.com/',
+    githubLink: 'https://github.com/bogdantigheci/todohooks',
+    img: 'img/todohooks.png',
+  },
+  {
+    title: 'To do',
+    techStack: 'App developed with ReactJS',
+    projectLink: 'https://todohooks.vercel.app/',
     githubLink: 'https://github.com/bogdantigheci/todolistreact',
     img: 'img/img2.png',
   },
