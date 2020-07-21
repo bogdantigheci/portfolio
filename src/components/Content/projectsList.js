@@ -8,7 +8,7 @@ const projects = [
     img: 'img/racingpigeons.png',
   },
   {
-    title: 'Titus Ivan Art - Freelance projects',
+    title: 'Titus Ivan Art - Freelance project',
     techStack: 'App developed with ReactJS',
     projectLink: 'https://titusivanart.netlify.app/',
     githubLink: 'https://github.com/bogdantigheci/titusIvan',
