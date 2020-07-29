@@ -4,6 +4,14 @@ import './Certificates.css';
 
 const images = [
   {
+    original: 'img/responsive_web_design.jpg',
+    thumbnail: 'img/responsive_web_design.jpg',
+  },
+  {
+    original: 'img/javascript_alg.png',
+    thumbnail: 'img/javascript_alg.png',
+  },
+  {
     original: 'img/css3_in_depth.jpg',
     thumbnail: 'img/css3_in_depth.jpg',
   },
@@ -26,10 +34,6 @@ const images = [
   {
     original: 'img/react_js_a_complete_guide.jpg',
     thumbnail: 'img/react_js_a_complete_guide.jpg',
-  },
-  {
-    original: 'img/responsive_web_design.jpg',
-    thumbnail: 'img/responsive_web_design.jpg',
   },
   {
     original: 'img/introduction_to_testing_in_java.jpg',

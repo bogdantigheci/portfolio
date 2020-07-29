@@ -28,21 +28,6 @@ const projects = [
     githubLink: 'https://github.com/bogdantigheci/burgerapp',
     img: 'img/img1.png',
   },
-  {
-    title: 'To do',
-    techStack:
-      'App developed with ReactJS (React Hooks including useContext and useReducer and a custom useAPI hook)',
-    projectLink: 'https://todoreactbt.netlify.com/',
-    githubLink: 'https://github.com/bogdantigheci/todohooks',
-    img: 'img/todohooks.png',
-  },
-  {
-    title: 'To do',
-    techStack: 'App developed with ReactJS and firebase',
-    projectLink: 'https://todohooks.vercel.app/',
-    githubLink: 'https://github.com/bogdantigheci/todolistreact',
-    img: 'img/img2.png',
-  },
 
   {
     title: 'Phone store',
@@ -65,6 +50,21 @@ const projects = [
     projectLink: 'https://tictactoebt.netlify.com/',
     githubLink: 'https://github.com/bogdantigheci/tictactoe',
     img: 'img/img4.png',
+  },
+  {
+    title: 'To do',
+    techStack:
+      'App developed with ReactJS (React Hooks including useContext and useReducer and a custom useAPI hook)',
+    projectLink: 'https://todoreactbt.netlify.com/',
+    githubLink: 'https://github.com/bogdantigheci/todohooks',
+    img: 'img/todohooks.png',
+  },
+  {
+    title: 'To do',
+    techStack: 'App developed with ReactJS and firebase',
+    projectLink: 'https://todohooks.vercel.app/',
+    githubLink: 'https://github.com/bogdantigheci/todolistreact',
+    img: 'img/img2.png',
   },
 ];
 
