@@ -14,6 +14,7 @@ import mySqlIcon from '@iconify/icons-simple-icons/mysql';
 import phpIcon from '@iconify/icons-simple-icons/php';
 import cSharpIcon from '@iconify/icons-simple-icons/csharp';
 import cplusplusIcon from '@iconify/icons-simple-icons/cplusplus';
+import jqueryIcon from '@iconify/icons-simple-icons/jquery';
 
 const About = () => {
   return (
@@ -182,6 +183,11 @@ const About = () => {
                         data-tip="C++"
                         className="mr-4 cplus_icon"
                         icon={cplusplusIcon}
+                      />
+                      <Icon
+                        data-tip="jQuery"
+                        className="mr-4 jquery_icon"
+                        icon={jqueryIcon}
                       />
                     </span>
                   </div>

@@ -45,6 +45,13 @@ const projects = [
     img: 'img/freshnews.png',
   },
   {
+    title: 'Daily NASA image',
+    techStack: 'App developed with ReactJS (React Hooks)',
+    projectLink: 'https://yourdailyastro.netlify.app/',
+    githubLink: 'https://github.com/bogdantigheci/nasadailypic',
+    img: 'img/dailynasapic.png',
+  },
+  {
     title: 'Tic Tac Toe',
     techStack: 'App developed with ReactJS',
     projectLink: 'https://tictactoebt.netlify.com/',
