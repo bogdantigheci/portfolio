@@ -114,6 +114,11 @@ const About = () => {
                         icon={jsIcon}
                       />
                       <Icon
+                        data-tip="React Native"
+                        className="mr-4 react_icon"
+                        icon={reactIcon}
+                      />
+                      <Icon
                         data-tip="CSS3"
                         className="mr-4 css3_icon"
                         icon={css3Icon}
