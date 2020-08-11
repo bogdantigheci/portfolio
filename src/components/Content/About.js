@@ -209,24 +209,18 @@ const About = () => {
                       experience and be part of a professional team.
                     </p>
                     <p className="lead">
+                      I am developing personal and freelance projects, web and
+                      mobile, using ReactJS, React Native, Redux, JavaScript
+                      (ES6+), HTML, CSS, NodeJS, Express, REST API, MongoDB,
+                      Git, Npm and Postman. I also have knowledge of CSS
+                      Preprocessors (SASS, LESS), Bootstrap, Java, Sql, MySql,
+                      PHP and C++.
+                    </p>
+                    <p className="lead">
                       I like attending online meetings from the JavaScript
                       community and watching online courses regarding
                       technologies I’m interested in. I also enjoy taking on
                       challenging projects and seeing them through.
-                    </p>
-                    <p className="lead">
-                      I’ve developed my{' '}
-                      <a
-                        href="https://racingpigeons.herokuapp.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        dissertation
-                      </a>{' '}
-                      project using ReactJS, Redux, JavaScript (ES6+), HTML,
-                      CSS, NodeJS, Express, REST API, MongoDB, Git, Npm and
-                      Postman. I also have basic knowledge of CSS Preprocessors
-                      (SASS, LESS), Bootstrap, Java, Sql, MySql, PHP and C++.
                     </p>
                   </div>
                 </div>
