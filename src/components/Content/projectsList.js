@@ -73,6 +73,13 @@ const projects = [
     githubLink: 'https://github.com/bogdantigheci/todolistreact',
     img: 'img/img2.png',
   },
+  {
+    title: 'Favorite Recipes',
+    techStack: 'App developed with React Native',
+    projectLink: 'https://expo.io/@bogdantigheci/favorite-recipes',
+    githubLink: 'https://github.com/bogdantigheci/favoriterecipes',
+    img: 'img/favrecipes.png',
+  },
 ];
 
 export default projects;
