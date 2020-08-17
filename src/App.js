@@ -7,10 +7,7 @@ import Projects from './components/Content/Projects';
 import ReactTooltip from 'react-tooltip';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
-import ReactGA from 'react-ga';
 
-ReactGA.initialize('UA-000000-01');
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 const App = () => {
   const [sideDrawerOpen, setSideDrawerOpen] = React.useState(false);
