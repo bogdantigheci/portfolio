@@ -15,6 +15,7 @@ import phpIcon from '@iconify/icons-simple-icons/php';
 import cSharpIcon from '@iconify/icons-simple-icons/csharp';
 import cplusplusIcon from '@iconify/icons-simple-icons/cplusplus';
 import jqueryIcon from '@iconify/icons-simple-icons/jquery';
+import jiraIcon from '@iconify/icons-simple-icons/jira';
 
 const About = () => {
   return (
@@ -193,6 +194,11 @@ const About = () => {
                         data-tip="jQuery"
                         className="mr-4 jquery_icon"
                         icon={jqueryIcon}
+                      />
+                      <Icon
+                        data-tip="jira"
+                        className="mr-4 jquery_icon"
+                        icon={jiraIcon}
                       />
                     </span>
                   </div>
