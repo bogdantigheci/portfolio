@@ -8,8 +8,8 @@ const Footer = () => {
           <div className="col-sm-12">
             <div className="copyright-box">
               <p className="copyright">
-                &copy; Copyright {new Date().getFullYear()}
-                <strong> Bogdan Tigheci. </strong> All Rights Reserved
+                &copy; {new Date().getFullYear()}
+                <strong> Bogdan Tigheci. </strong>
               </p>
             </div>
           </div>
