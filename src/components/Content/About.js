@@ -204,13 +204,13 @@ const About = () => {
                     </div>
                     <p className="lead">
                       Computer Science graduate, Bachelor’s and Master’s
-                      degrees. Seeking a new job opportunity as a Frontend
-                      Developer. Eager to learn and acquire on-the-job
-                      experience and be part of a professional team.
+                      degrees. Working as a Web Developer. Eager to learn and
+                      acquire on-the-job experience and be part of a
+                      professional team.
                     </p>
                     <p className="lead">
-                      I am developing personal and freelance projects, web and
-                      mobile, using ReactJS, React Native, Redux, JavaScript
+                      I am also developing personal and freelance projects, web
+                      and mobile, using ReactJS, React Native, Redux, JavaScript
                       (ES6+), HTML, CSS, NodeJS, Express, REST API, MongoDB,
                       Git, Npm and Postman. I also have knowledge of CSS
                       Preprocessors (SASS, LESS), Bootstrap, Java, Sql, MySql,
