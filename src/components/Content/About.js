@@ -210,8 +210,8 @@ const About = () => {
                     </div>
                     <p className="lead">
                       Computer Science graduate, Bachelor’s and Master’s
-                      degrees. Working as a Web Developer. Eager to learn and
-                      acquire on-the-job experience and be part of a
+                      degrees. Working as a Frontend Developer. Eager to learn
+                      and acquire on-the-job experience and be part of a
                       professional team.
                     </p>
                     <p className="lead">
