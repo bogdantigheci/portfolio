@@ -382,6 +382,12 @@ a {
 .mongodb_icon {
   color: rgb(50, 176, 69);
 }
+.vue_icon {
+  color: #4dba87;
+}
+.mongodb_icon {
+  color: rgb(50, 176, 69);
+}
 .git_icon {
   color: orangered;
 }

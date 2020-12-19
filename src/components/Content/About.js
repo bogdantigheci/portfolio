@@ -16,6 +16,7 @@ import cSharpIcon from '@iconify/icons-simple-icons/csharp';
 import cplusplusIcon from '@iconify/icons-simple-icons/cplusplus';
 import jqueryIcon from '@iconify/icons-simple-icons/jquery';
 import jiraIcon from '@iconify/icons-simple-icons/jira';
+import vueIcon from '@iconify/icons-simple-icons/vuejs';
 
 const About = () => {
   return (
@@ -108,6 +109,11 @@ const About = () => {
                         data-tip="Redux"
                         className="mr-4 redux_icon"
                         icon={reduxIcon}
+                      />
+                      <Icon
+                        data-tip="VueJS"
+                        className="mr-4 vue_icon"
+                        icon={vueIcon}
                       />
                       <Icon
                         data-tip="JavaScript"
