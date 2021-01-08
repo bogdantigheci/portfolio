@@ -215,18 +215,8 @@ const About = () => {
                       <h5 className="title-left">About me</h5>
                     </div>
                     <p className="lead">
-                      Computer Science graduate, Bachelor’s and Master’s
-                      degrees. Working as a Frontend Developer. Eager to learn
-                      and acquire on-the-job experience and be part of a
-                      professional team.
-                    </p>
-                    <p className="lead">
-                      I am also developing personal and freelance projects, web
-                      and mobile, using ReactJS, React Native, Redux, JavaScript
-                      (ES6+), HTML, CSS, NodeJS, Express, REST API, MongoDB,
-                      Git, Npm and Postman. I also have knowledge of CSS
-                      Preprocessors (SASS, LESS), Bootstrap, Java, Sql, MySql,
-                      PHP and C++.
+                      Currently working as a Frontend Developer, developing web applications with large scope and complexity.
+                      Eager to learn new technologies, acquire on-the-job experience and be part of a professional team.
                     </p>
                     <p className="lead">
                       I like attending online meetings from the JavaScript
