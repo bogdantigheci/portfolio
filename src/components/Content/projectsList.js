@@ -80,6 +80,13 @@ const projects = [
     githubLink: 'https://github.com/bogdantigheci/favoriterecipes',
     img: 'img/favrecipes.png',
   },
+  {
+    title: 'Favorite Movies',
+    techStack: 'App developed with ReactJS',
+    projectLink: 'https://findyourmovies.netlify.app/',
+    githubLink: 'https://github.com/bogdantigheci/movie-finder',
+    img: 'img/moviefinder.png',
+  },
 ];
 
 export default projects;
