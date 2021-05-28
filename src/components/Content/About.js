@@ -168,15 +168,6 @@ const About = () => {
                         icon={bootstrapIcon}
                       />
                       <Icon
-                        data-tip="Java"
-                        className="mr-4 java_icon"
-                        icon={javaIcon}
-                      />
-                      <i
-                        data-tip="SQL"
-                        className="fas fa-database mr-4 db_icon"
-                      ></i>
-                      <Icon
                         data-tip="MySql"
                         className="mr-4 mysql_icon"
                         icon={mySqlIcon}
@@ -185,16 +176,6 @@ const About = () => {
                         data-tip="PHP"
                         className="mr-4 php_icon"
                         icon={phpIcon}
-                      />
-                      <Icon
-                        data-tip="C#"
-                        className="mr-4 csharp_icon"
-                        icon={cSharpIcon}
-                      />
-                      <Icon
-                        data-tip="C++"
-                        className="mr-4 cplus_icon"
-                        icon={cplusplusIcon}
                       />
                       <Icon
                         data-tip="jQuery"
@@ -215,8 +196,10 @@ const About = () => {
                       <h5 className="title-left">About me</h5>
                     </div>
                     <p className="lead">
-                      Currently working as a Frontend Developer, developing web applications with large scope and complexity.
-                      Eager to learn new technologies, acquire on-the-job experience and be part of a professional team.
+                      Currently working as a Frontend Developer, developing web
+                      applications with large scope and complexity. Eager to
+                      learn new technologies, acquire on-the-job experience and
+                      be part of a professional team.
                     </p>
                     <p className="lead">
                       I like attending online meetings from the JavaScript
