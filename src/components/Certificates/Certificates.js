@@ -20,24 +20,12 @@ const images = [
     thumbnail: 'img/introduction_to_sql.jpg',
   },
   {
-    original: 'img/java_fundamentals_the_java_language.jpg',
-    thumbnail: 'img/java_fundamentals_the_java_language.jpg',
-  },
-  {
-    original: 'img/java_fundamentals_collections.jpg',
-    thumbnail: 'img/java_fundamentals_collections.jpg',
-  },
-  {
     original: 'img/react_fundamentals.jpg',
     thumbnail: 'img/react_fundamentals.jpg',
   },
   {
     original: 'img/react_js_a_complete_guide.jpg',
     thumbnail: 'img/react_js_a_complete_guide.jpg',
-  },
-  {
-    original: 'img/introduction_to_testing_in_java.jpg',
-    thumbnail: 'img/introduction_to_testing_in_java.jpg',
   },
 ];
 const additionalClass = 'img_gal_cert';
