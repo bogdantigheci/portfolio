@@ -8,13 +8,6 @@ const projects = [
     img: 'img/racingpigeons.png',
   },
   {
-    title: 'Titus Ivan Art - Freelance project',
-    techStack: 'App developed with ReactJS',
-    projectLink: 'https://titusivanart.netlify.app/',
-    githubLink: 'https://github.com/bogdantigheci/titusIvan',
-    img: 'img/titusivanart.png',
-  },
-  {
     title: 'Racing Pigeons Chat - Owner',
     techStack: 'App developed with ReactJS, Redux, firebase and semantic-ui',
     projectLink: 'https://racingpigeonschat.web.app/',
@@ -52,21 +45,6 @@ const projects = [
     img: 'img/dailynasapic.png',
   },
   {
-    title: 'Tic Tac Toe',
-    techStack: 'App developed with ReactJS',
-    projectLink: 'https://tictactoebt.netlify.com/',
-    githubLink: 'https://github.com/bogdantigheci/tictactoe',
-    img: 'img/img4.png',
-  },
-  {
-    title: 'To do',
-    techStack:
-      'App developed with ReactJS (React Hooks including useContext and useReducer and a custom useAPI hook)',
-    projectLink: 'https://todohooks.vercel.app/',
-    githubLink: 'https://github.com/bogdantigheci/todohooks',
-    img: 'img/todohooks.png',
-  },
-  {
     title: 'To do',
     techStack: 'App developed with ReactJS and firebase',
     projectLink: 'https://todoreactbt.netlify.com/',
@@ -79,13 +57,6 @@ const projects = [
     projectLink: 'https://expo.io/@bogdantigheci/favorite-recipes',
     githubLink: 'https://github.com/bogdantigheci/favoriterecipes',
     img: 'img/favrecipes.png',
-  },
-  {
-    title: 'Favorite Movies',
-    techStack: 'App developed with ReactJS',
-    projectLink: 'https://findyourmovies.netlify.app/',
-    githubLink: 'https://github.com/bogdantigheci/movie-finder',
-    img: 'img/moviefinder.png',
   },
 ];
 

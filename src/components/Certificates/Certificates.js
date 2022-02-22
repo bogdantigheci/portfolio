@@ -14,19 +14,7 @@ const images = [
   {
     original: 'img/css3_in_depth.jpg',
     thumbnail: 'img/css3_in_depth.jpg',
-  },
-  {
-    original: 'img/introduction_to_sql.jpg',
-    thumbnail: 'img/introduction_to_sql.jpg',
-  },
-  {
-    original: 'img/react_fundamentals.jpg',
-    thumbnail: 'img/react_fundamentals.jpg',
-  },
-  {
-    original: 'img/react_js_a_complete_guide.jpg',
-    thumbnail: 'img/react_js_a_complete_guide.jpg',
-  },
+  }
 ];
 const additionalClass = 'img_gal_cert';
 
